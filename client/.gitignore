@@ -15,3 +15,6 @@ build/
 
 # System files
 .DS_Store
+
+# Vite cache
+.vite/
