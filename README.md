@@ -20,7 +20,6 @@ It connects **citizens with authorities** and uses AI to analyze, verify, cluste
 
 ## 🤖 AI Workflow
 
-```text
 Citizen Report
       ↓
 AI Analysis
@@ -32,9 +31,9 @@ Severity & Priority
 Authority Action
 
 ---
-🛠️ Tech Stack
+##🛠️ Tech Stack
 React • Vite • Tailwind CSS • Supabase • Gemini API • Leaflet • Recharts
-⚙️ Setup
+##⚙️ Setup
 git clone https://github.com/shravanipatil2303/SafeSphere.git
 cd SafeSphere/client
 npm install
@@ -43,7 +42,7 @@ npm run dev
 Open http://localhost:3000
 Configure the required environment variables before running the application.
 
-📸 Screenshots
+##📸 Screenshots
 Citizen Dashboard
  
 Incident Reporting
