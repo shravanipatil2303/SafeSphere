@@ -20,20 +20,30 @@ It connects **citizens with authorities** and uses AI to analyze, verify, cluste
 
 ## 🤖 AI Workflow
 
+```text
 Citizen Report
       ↓
-AI Analysis
+Incident Analysis
       ↓
-Verification & Clustering
+Evidence Verification
+      ↓
+Duplicate & Clustering
       ↓
 Severity & Priority
       ↓
-Authority Action
+Response Coordination
+```
+---
+
+## 🛠️ Tech Stack
+
+React • Vite • Tailwind CSS • Supabase • Gemini API • Leaflet • Recharts
 
 ---
-##🛠️ Tech Stack
-React • Vite • Tailwind CSS • Supabase • Gemini API • Leaflet • Recharts
-##⚙️ Setup
+
+## ⚙️ Setup
+
+```bash
 git clone https://github.com/shravanipatil2303/SafeSphere.git
 cd SafeSphere/client
 npm install
@@ -41,10 +51,25 @@ npm run dev
 
 Open http://localhost:3000
 Configure the required environment variables before running the application.
+```
+---
 
-##📸 Screenshots
-Citizen Dashboard
- 
-Incident Reporting
- 
-Authority Dashboard
+### 📸 Screenshots
+
+#### 👥 Citizen Dashboard
+![Citizen Dashboard](ss1.JPG)
+
+#### 📝 Incident Reporting — Report Form
+![Incident Reporting Form](ss2.JPG)
+
+#### 🤖 Incident Reporting — AI Analysis
+![Incident Reporting AI Analysis](ss3.JPG)
+
+#### 🏛️ Authority Dashboard
+![Authority Dashboard](ss4.JPG)
+
+#### 🚨 Incident Details — Overview
+![Incident Details Overview](ss5.JPG)
+
+#### 🚨 Incident Details — AI Intelligence
+![Incident Details AI Intelligence](ss6.JPG)
